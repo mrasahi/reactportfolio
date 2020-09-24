@@ -1,9 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { Container, Row, Col } from 'reactstrap';
+
 
 const Home = () => {
     return (
         <>
-            <h1>Home Page</h1>
+            <Container className="text-center">
+                <br />
+                <Row>
+                    <Col>
+                        <h1>Makoto Asahi</h1>
+                        <h6>Full Stack Web Developer</h6>
+                    </Col>
+                </Row>
+            </Container>
+
         </>
     )
 }

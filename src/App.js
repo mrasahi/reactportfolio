@@ -1,18 +1,18 @@
-import React, { useState, useEffect } from 'react'
-import Header from './components/Jumbotron'
+import React from 'react'
 import NavBar from './components/Navbar'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
+import Footer from './components/Footer'
 import {
   BrowserRouter as Router,
   Route,
   Switch,
 } from 'react-router-dom'
-import { Navbar } from 'reactstrap'
+
 
 const App = () => {
-  return(
+  return (
     <>
       <Router>
         <div>
@@ -25,7 +25,9 @@ const App = () => {
         </div>
       </Router>
 
-      <Header />
+
+
+      <Footer />
     </>
   )
 }
