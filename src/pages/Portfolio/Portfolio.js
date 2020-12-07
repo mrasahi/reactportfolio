@@ -19,10 +19,10 @@ const Portfolio = () => {
                 <br />
                 <h1>Portfolio Page</h1>
                 <Row>
-                    <Col md="6">
+                    <Col md="8">
                         <Project {...p1} />
                     </Col>
-                    <Col md="6">
+                    <Col md="4">
                         <Project {...p2}/>
                     </Col>
                 </Row>

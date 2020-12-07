@@ -16,6 +16,7 @@ const Project = props => {
                     <CardSubtitle>{props.subtitle}</CardSubtitle>
                     <CardText>{props.description}</CardText>
                     <Button>Button</Button>
+                    <Button>another 1</Button>
                 </CardBody>
             </Card>
 
